@@ -1,4 +1,9 @@
 #!/bin/bash 
+#Esse script tem a função de modificar fotos do tipo jpg para png.
+#Finalidae de conversão de fotos.
+#
+#Autor: Lucas Ferreira Vicente 
+
 cd imagens-livros
 
 for imagem in *.jpg
