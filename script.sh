@@ -18,9 +18,11 @@ do
 	convert $imagem $imagem.png
 	img_sem_ext=$(ls $imagem | awk -F. '{print $1}')
 	convert $imagem $img_sem_ext.png
+
+	echo "Imagem convertida com sucesso!"
 done 
 
-echo "FINALIZANDO"
+echo "A CONVERSÃO FOI FINALIZADA COM SUCESSO. OBRIGADO POR UTILIZAR O MEU SCRIPT"
 
 cd ..
 
